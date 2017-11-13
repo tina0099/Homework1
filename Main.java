@@ -68,16 +68,6 @@ public class Main {
 //        else
 //                System.out.println("Это число четное: " + num[i]);
 
-// Жалкие потуги этого же задания  System.out.println("Chet"+i);
-//        Scanner in = new Scanner(System.in);
-//        int tt = in.nextInt();
-//        int[] y = new int[tt];
-//
-//        for (int i = 0; i < tt; i++) {
-//            if (y[i] % 2 != 0)
-//                System.out.println(y[i]);
-//            else if (y[i] % 2 == 0)
-//                System.out.println(y[i]);
 
 //         задание 6.2
 //        Scanner in = new Scanner(System.in);
