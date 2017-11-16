@@ -19,12 +19,13 @@ public class Main {
 //        System.out.println("HI " + smth);
 
         // задание 2
-        //        Scanner in = new Scanner(System.in);
+        //Scanner in = new Scanner(System.in);
+//        System.out.println("Enter some numbers");
 //        String[] tt = in.nextLine().split(" ");
 //        for (int j = tt.length; j >0; j--)
 //        System.out.println(tt[j-1]);
 
-        //      задание 3
+        // задание 3
 //        Scanner in = new Scanner(System.in);
 //        int[] num = new int[2];
 //        for (int i = 0; i < num.length; i++) {
@@ -35,7 +36,7 @@ public class Main {
 //            System.out.println(num[i]);
 
 
-//      задание 4
+//        задание 4
 //        int a = 12345;
 //        Scanner in = new Scanner(System.in);
 //        System.out.println("Type your password");
@@ -57,7 +58,7 @@ public class Main {
 
 //
         // задание 6.1
-//                Scanner in = new Scanner(System.in);
+//        Scanner in = new Scanner(System.in);
 //        int[] num = new int[3];
 //        for (int i = 0; i < num.length; i++)
 //        num[i] = in.nextInt();
@@ -71,43 +72,17 @@ public class Main {
 
 //         задание 6.2
 //        Scanner in = new Scanner(System.in);
-//        int[] num = new int[5];
-//        System.out.println("Введите три целых числа  и мы покажем вам максимальное");
+//        int[] num = new int[3];
+//        System.out.println("Введите три целых числа  и мы покажем Вам максимальное");
 //        for (int i = 0; i < num.length; i++)
-
 //            num[i] = in.nextInt();
-//        int min = num[5];
+//        int min = num[3];
 //        for (int i = 0; i > num.length; i++)
 //            if (min > num[i])
 //                min = num[i];
 //        System.out.println("Это максимальное: " + min);
 //        else
-//                System.out.println("Это число немаксимальное: " + min);
-
-//        System.out.print("Enter 4isla here:");
-//        Scanner scan = new Scanner(System.in);
-//        String[] num = scan.nextLine().split(" ");
-//
-//        int w = Integer.parseInt(num[0]);
-//        for (int i = 0; i < num.length; i++) {
-//            int q = Integer.parseInt(num[i]);
-//            if (w < q) {
-//                w = q;
-//            }
-//        }
-//        System.out.print("Max 4islo: " + w);
-//        System.out.println();
-//
-//
-//        int e = Integer.parseInt(num[0]);
-//        for (int i = 0; i < num.length; i++) {
-//            int q = Integer.parseInt(num[i]);
-//            if (e > q) {
-//                e = q;
-//            }
-//        }
-//        System.out.print("Min 4islo: " + e);
-//        System.out.println();
+//                System.out.println("Это число не максимальное: " + min);
 
 //    задание 6.3
 //        Scanner in = new Scanner(System.in);
@@ -135,15 +110,15 @@ public class Main {
 
 
 //        задание 6.7
-
-        Scanner in = new Scanner(System.in);
-        int[] num = new int[2];
-        System.out.println("Введите числа");
-        for (int i = 0; i < num.length; i++)
-            num[i] = in.nextInt();
-        for (int i = 0; i < num.length; i++)
-            if ((num[i]) + (num[i + 2]) / 2 == num[i + 1])
-                System.out.println("Это число, то самое: "+ num[i+1]);
+//
+//        Scanner in = new Scanner(System.in);
+//        int[] num = new int[2];
+//        System.out.println("Введите числа");
+//        for (int i = 0; i < num.length; i++)
+//            num[i] = in.nextInt();
+//        for (int i = 0; i < num.length; i++)
+//            if ((num[i]) + (num[i + 2]) / 2 == num[i + 1])
+//                System.out.println("Элементы, которые равны полусумме соседних элементов:" + num[i + 1]);
 
 
     }
